@@ -8,14 +8,18 @@
 <body>
 <h2>Kalkulator zbiorow!!!</h2>
 <form>
-    <input type="text" name="Zbior A (liczby oddzielone przecinkami): ">
-    <input type="text" name="Zbior B (liczby oddzielone przecinkami): ">
+    <div id="box">
+        Zbior A (liczby oddzielone przecinkami):
+    <input type="text"> <br>
+        Zbior B (liczby oddzielone przecinkami):
+    <input type="text">
     <select name="Operacja: ">
         <option value="suma">Suma</option>
         <option value="roznica">Roznica</option>
         <option value="czWspolna">Czesc wspolna</option>
     </select>
-    <input type="submit" value="Oblicz">
+    <input type="button" value="Oblicz">
+    </div>
 </form>
 
 <div class="Wynik: ">
