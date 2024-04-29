@@ -1,0 +1,58 @@
+html, body {
+  background-color: whitesmoke;
+}
+
+form {
+    width: 500px;
+    height: 300px;
+    box-shadow: gray 10px 10px 10px 5px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"],
+select {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    text-align: center;
+    background-color: lightskyblue;
+    border: lightskyblue solid;
+    box-shadow: gray 10px 10px 10px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    height: 40px;
+    justify-content: center;
+}
+
+
+select {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#wynik {
+    width: 480px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: lightskyblue;
+    box-shadow: gray 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
