@@ -1,0 +1,43 @@
+html, body {
+    background-color: #353434;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+
+.main {
+    display: flex;
+    width: 90vw;
+    height: 20vh;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(28,27,27,0.59) 10px 10px 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(63,62,62,0.59);
+    color: pink;
+
+}
+
+input, select {
+    background-color: pink;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+}
+
+#result {
+    display: flex;
+    width: 90vw;
+    height: 20vh;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    color: pink;
+    font-weight: bolder;
+}

@@ -1,0 +1,58 @@
+html, body {
+    background-color: #353434;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+color: whitesmoke;
+    font-family: "Arial Narrow";
+    color: pink;
+    text-align: center;
+}
+
+#box {
+    background-color: gray;
+    width: 50vw;
+    height: 15vh;
+   margin: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: black 10px 10px 10px;
+}
+
+input[type="text"] {
+    display: flex;
+    width: 40vw;
+    height: 3vh;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    border-color: pink;
+    background-color: pink;
+}
+
+input[type="submit"] {
+    display: flex;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    justify-content: center;
+    width: 40vw;
+    height: 5vh;
+    background-color: pink;
+    border-color: pink;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#results {
+    font-family: "Arial Narrow";
+    color: pink;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px 10px 10px 10px;
+    width: 50vw;
+    height: 40vh;
+    margin: auto;
+    padding: 10px;
+}

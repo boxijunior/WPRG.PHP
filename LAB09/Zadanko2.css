@@ -1,0 +1,42 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #353434;
+}
+
+#main {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    color: pink;
+
+}
+
+#reset {
+    display: flex;
+    margin: auto;
+    width: 50vw;
+
+}
+
+#amount {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    width: 50vw;
+    background-color: pink;
+    font-weight: bolder;
+    font-size: 15px;
+}
